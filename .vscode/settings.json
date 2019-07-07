@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "complex.h": "c",
+        "math.h": "c",
+        "stdlib.h": "c",
+        "conio.h": "c"
+    }
+}

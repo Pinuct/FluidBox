@@ -1,0 +1,28 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build fluid_simulator",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "-g",
+                "-o",
+                "fluid_simulator",
+                "fluid_simulator.c",
+                "CollisionList.c"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "run fluid_simulator",
+            "type": "shell",
+            "command": "fluid_simulator.exe",
+            "problemMatcher": []
+        }
+    ]
+}
